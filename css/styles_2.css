@@ -684,6 +684,13 @@ progress {
   margin-top: var(--bs-gutter-y);
 }
 
+.ul-skills {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    list-style-type: none;
+}
+
 .col {
   flex: 1 0 0%;
 }
