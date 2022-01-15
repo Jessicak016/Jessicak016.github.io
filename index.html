@@ -28,6 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#research">Research</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
@@ -63,43 +64,194 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
+                <!-- Project 1 -->
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/network.png" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <h5>Relapsing Polychondritis in Twitter</h5>
+                    <p class="text-wrap">In this project, I conducted tweet analyses to study conversations around
+                      relapsing polychondritis on social media. Relapsing polychondritis (RP) is a rare condition where there is not much
+                      discussion and awareness about its management, treatment and diagnosis.
+                      I used topic modeling method LDA and conducted network analyses to explore latent topics
+                      surrounding relapsing polychondritis in the tweets.
+                      This results showed that many of the tweets were focused on advocacy and raising awareness.</p>
+                      <p>Tools: Python (numpy, pandas, gensim, nltk, scikit-learn, networkx), Gephi</p>
+                      <p>When: October-December 2021</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/relapsing-polychondritis-in-twitter-cdfdb8b9f5a3?source=friends_link&sk=976e94e34af6222afad5ce3ff730bfa5" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                    <a class="btn btn-primary" href="https://github.com/Jessicak016/rp_twitter" target="_blank">
+                      <i class="fab fa-github"></i>
+                      Github
+                    </a>
+                    <a class="btn btn-primary" href="https://docs.google.com/presentation/d/e/2PACX-1vS-zVDFfakGDGYYTqui1m6eTteu6EaKjKYY7mwwX3vQ_o-psdQAUzDOH5N-joFJHb1DxaNVd-NX8Vrg/pub?start=true&loop=true&delayms=3000" target="_blank">
+                      <i class="fas fa-file-powerpoint"></i>
+                      Poster
+                    </a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                              <div class="portfolio-item-caption-content text-center text-white">Medical Transcription Classification
-                                <div class="divider-custom divider-light"><div class="divider-custom-line-2"></div></div>
-                                <div class="portfolio-item-caption-content-span">NLP</div>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/medical_transcriptions.jpg" alt="Natural Language Processing" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                              <div class="portfolio-item-caption-content text-center text-white">Natural Language Inference
-                                <div class="divider-custom divider-light"><div class="divider-custom-line-2"></div></div>
-                                <div class="portfolio-item-caption-content-span">NLP</div>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/NLI.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                  <div class="portfolio-item-caption-content text-center text-white">Human Trafficking Plot
-                                    <div class="divider-custom divider-light"><div class="divider-custom-line-2"></div></div>
-                                    <div class="portfolio-item-caption-content-span">Data Analytics & Visualization</div>
-                                  </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/visualization.png" alt="..." />
-                        </div>
-                    </div>
+                  <hr/>
+                </div>
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/confusion_matrix.png" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <h5>Predicting Text Difficulty</h5>
+                    <p class="text-wrap">I attempted to create a model that would predict text difficulty
+                      in a statement or sentence with high accuracy. For each statement or
+                      sentence, the model would predict whether it needs to be simplified or not simplified.
+                      This could potentially help build a tool that could aid editors, who simplify text and increase its readability of wikipedia pages
+                      for those who have learning/reading difficulties or have English as a second language.
+                    </p>
+                      <p>Tools: Python (numpy, pandas, spacy, nltk, regular expressions, scikit-learn)</p>
+                      <p>When: October-December 2021</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/predicting-text-difficulty-b07f64b8a439?source=friends_link&sk=beeedbe708690fe63979b02bd8aedb77" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                    <a class="btn btn-primary" href="https://github.com/Jessicak016/text_difficulty" target="_blank">
+                      <i class="fab fa-github"></i>
+                      Github
+                    </a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="row justify-content-center">
+                  <hr/>
+                </div>
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/NLI.png" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <h5>Natural Language Inference</h5>
+                    <p class="text-wrap">This project shows implementation of the LSTM model and Sum Embedding models
+                      for the NLI task using the SNLI corpus.
+                      It was inspired by A large annotated corpus for learning natural language inference by Bowman et al. (2015)
+                      and Supervised Learning of Universal Sentence Representations from Natural Language Inference
+                      by Conneau et al. (2018).</p>
+                      <p>Tools: Python (numpy, pandas, scikit-learn, Tensorflow)</p>
+                      <p>When: March-April 2021</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/natural-language-inference-exploring-sentence-models-and-relation-extraction-methods-6fe27b3e0d43?source=friends_link&sk=308cf2bcbb984e173183ade0a74af987" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                    <a class="btn btn-primary" href="https://github.com/Jessicak016/lstm_nli" target="_blank">
+                      <i class="fab fa-github"></i>
+                      Github
+                    </a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="row justify-content-center">
+                  <hr/>
+                </div>
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/medical_transcription2.png" alt="Natural Language Processing" />
+                  </div>
+                  <div class="col-8">
+                    <h5>Medical Transcription Classification</h5>
+                    <p>The goal of this project is to develop or find high-performing NLP model that can correctly classify the medical specialties based on the transcription text with significant accuracy. This project was inspired by the existing Kaggle dataset Medical Transcriptions and mtsamples.com that has a collection of transcribed medical reports (Boyle, 2019). This project might be useful in understanding the nature of the language used in medical transcriptions of various kinds, and this tool might be useful for other kinds of NLP data analysis involving medical transcriptions.</p>
+                    <p>Tools: Python (numpy, pandas, scikit-learn, xgboost, Keras)</p>
+                    <p>When: March-April 2021</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/medical-transcription-classification-4e161e687cda?source=friends_link&sk=38b70dbe9ca92ca6fd442ac6822dbbe5" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                    <a class="btn btn-primary" href="https://github.com/Jessicak016/medical_transcription_classification" target="_blank">
+                      <i class="fab fa-github"></i>
+                      Github
+                    </a>
+                    <a class="btn btn-primary" href="https://drive.google.com/file/d/1SPObqsU2jRlXKciAqZoW8CPxdWsYBXfT/view?usp=sharing" target="_blank">
+                      <i class="fas fa-file-powerpoint"></i>
+                      Slides
+                    </a>
+                  </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="row justify-content-center">
+                  <hr/>
+                </div>
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/visualization.png" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <h5>Human Trafficking Visualization</h5>
+                    <p>In this project, I took a look into the number of participating agencies that actively did something against human trafficking
+                      and the poverty rate in each state. Using the data, I created the choropleth map of United States, displaying the data of poverty rate and the state participation for each state.
+                      I gathered data using Web API and HTML parsing, and manipulated data using Python to produce cumulative data list.
+                      I visualized data by showing the poverty rate and the participation by state on US choropleth map using plotly.</p>
+                    <p>Tools: Python (urllib, BeautifulSoup)</p>
+                    <p>When: April 2017</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/human-trafficking-and-poverty-rate-a-look-into-each-state-22adbe2abf5a?source=friends_link&sk=f0c58ff4f5460d0bb0262b27145c1c03" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                    <a class="btn btn-primary" href="https://github.com/Jessicak016/humantrafficking_povertyrate" target="_blank">
+                      <i class="fab fa-github"></i>
+                      Github
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section portfolio research" id="research">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Research</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-circle fa-xs"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Project 1 -->
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/twitter3.png" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <h5>Black Twitter Project</h5>
+                    <p>PIs: <a href="https://medicine.umich.edu/dept/lhs/vg-vinod-vydiswaran-phd" target="_blank">V. G. Vinod Vydiswaran</a> and <a href="https://www.henryford.com/physician-directory/c/caldwell-martina" target="_blank">Martina T Caldwell</a></p>
+                    <p class="text-wrap">One of the goals of the project is to explore the Black community’s perspectives
+                      on various COVID-19 topics in Twitter. My work was focused on conducting exploratory data analysis on
+                      tweets of black influencers and consolidating a list of keywords and hashtags that can be used to further extract tweets.</p>
+                    <p>Tools: Python (pandas, nltk, json), mySQL</p>
+                    <p>When: September 2021 - Current | Role: Data Analysis</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/black-twitter-project-9c64d4d34678?source=friends_link&sk=2d5cb47dabb52298b1c14f129b12c738" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="row justify-content-center">
+                  <hr/>
+                </div>
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/cai.png" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <h5>Meta Analysis of Diabetes Research</h5>
+                    <p>PIs: <a href="https://medicine.umich.edu/dept/lhs/vg-vinod-vydiswaran-phd" target="_blank">V. G. Vinod Vydiswaran</a> and <a href="https://nursing.umich.edu/faculty-staff/faculty/deanna-isaman" target="_blank">Deanna Isaman</a></p>
+                    <p class="text-wrap">My work in this project was focused on developing a prototype data-extraction algorithm using NLP
+                      on prediabetes definitions and outcomes from peer-reviewed literature related to diabetes and prediabetes.</p>
+                    <p>Tools: Python (BeautifulSoup, pandas, regular expressions)</p>
+                    <p>When: April-August 2021 | Role: Data Analysis</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/meta-analysis-of-diabetes-research-96516c8a5bc4?source=friends_link&sk=efff70b9fea23d3daa0ee16e3be467b0" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                  </div>
                 </div>
             </div>
         </section>
@@ -174,118 +326,8 @@
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Jessica Kim 2021</small></div>
         </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Medical Transcriptions Classification</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-circle fa-xs"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">The goal of this project is to develop or find high-performing NLP model that can correctly classify the medical specialties based on the transcription text with significant accuracy.
-                                      This project was inspired by the existing Kaggle dataset Medical Transcriptions and mtsamples.com that has a collection of transcribed medical reports (Boyle, 2019).
-                                      This project might be useful in understanding the nature of the language used in medical transcriptions of various kinds, and this tool might be useful for other kinds of NLP data analysis involving medical transcriptions.</p>
-                                    <a class="btn btn-primary" href="https://github.com/Jessicak016/medical_transcription_classification" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                        Github
-                                    </a>
-                                    <a class="btn btn-primary" href="https://drive.google.com/file/d/1SPObqsU2jRlXKciAqZoW8CPxdWsYBXfT/view?usp=sharing" target="_blank">
-                                        <i class="fas fa-file-powerpoint"></i>
-                                        Slides
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Natural Language Inference:  Sentence Models & Relation Extraction Methods</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-circle fa-xs"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />-->
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">This project shows implementation of the LSTM model and Sum Embedding models for the NLI task using the SNLI corpus. It was inspired by A large annotated corpus for learning natural language inference by Bowman et al. (2015) and Supervised Learning of Universal Sentence Representations from Natural Language Inference by Conneau et al. (2018).</p>
 
-                                    <a class="btn btn-primary" href="https://github.com/Jessicak016/lstm_nli" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                        Github
-                                    </a>
-                                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/natural-language-inference-exploring-sentence-models-and-relation-extraction-methods-6fe27b3e0d43?source=friends_link&sk=308cf2bcbb984e173183ade0a74af987" target="_blank">
-                                        <i class="fab fa-medium"></i>
-                                        Medium
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">State Participation to fight against Human Trafficking and Poverty Rate</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-circle fa-xs"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">In this project, I took a look into the number of participating agencies that actively did something against human trafficking and the poverty rate in each state. Using the data, I created the choropleth map of United States, displaying the data of poverty rate and the state participation for each state.
-                                      I gathered data using Web API and HTML parsing, and manipulated data using Python to produce cumulative data list. I visualized data by showing the poverty rate and the participation by state on US choropleth map using plotly.</p>
-                                    <a class="btn btn-primary" href="https://github.com/Jessicak016/humantrafficking_povertyrate" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                        Github
-                                    </a>
-                                    <a class="btn btn-primary" href="https://plot.ly/~jessjkim/8/poverty-rate-and-the-presence-of-human-trafficking-participating-agencies-by-sta/" target="_blank">
-                                        <i class="fas fa-map-marked-alt"></i>
-                                        Plotly Visualization
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
 
         <!-- Bootstrap core JS-->
