@@ -10,6 +10,15 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+.bottom-buffer {
+  padding-bottom: 20px;
+}
+
+.research {
+  background-color: rgba(0, 113, 148, 0.12);
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
