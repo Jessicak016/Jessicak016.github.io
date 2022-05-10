@@ -49,7 +49,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Data Analytics | Applied Machine Learning | NLP</p>
+                <p class="masthead-subheading font-weight-light mb-0">Data Analytics | Machine Learning | NLP</p>
             </div>
         </header>
         <!-- Projects Section-->
@@ -67,12 +67,38 @@
                 <!-- Project 1 -->
                 <div class="row justify-content-center bottom-buffer">
                   <div class="col-4">
+                    <img class="img-fluid" src="assets/img/portfolio/clinical_decision2.png" alt="..." />
+                  </div>
+                  <div class="col-8">
+                    <h5>Clinical Decision-Making in Delivery</h5>
+                    <p class="text-wrap">Research has shown that many of the clinical decisions that are made under high pressure and in a short time frame rely on non-evidence-based simplified decision rules, resulting in suboptimal health outcomes.
+                      One of the settings, where this is prevalent, is the delivery room, where decision-making especially can have serious health consequences for both mothers and infants.
+                      This study investigated whether a physician’s decision in delivery mode for a current patient is influenced by the complication in the prior patient.
+                      I found that prior complications do influence physician’s decision-making in current delivery mode but were not able to ascertain the causation relationship between the complication in the prior patient and the delivery mode for the current patient.</p>
+                      <p>Tools: Python (numpy, pandas, statsmodels, scikit-learn, scipy, matplotlib), SQL Server</p>
+                      <p>When: January - April 2022</p>
+                    <a class="btn btn-primary" href="https://jessjkim-1.medium.com/clinical-decision-making-in-delivery-5bb3f15eabbc?source=friends_link&sk=c1f6d57506d70b85cd398f2a1216c3c3" target="_blank">
+                      <i class="fab fa-medium"></i>
+                      Medium
+                    </a>
+                    <a class="btn btn-primary" href="https://drive.google.com/file/d/1LdcCba5rTo_YSK7vrapWrGJsx7x2TLyT/view?usp=sharing" target="_blank">
+                      <i class="fas fa-file-pdf"></i>
+                      Paper & Supplementary Materials
+                    </a>
+                  </div>
+                </div>
+                <!-- Project 1 -->
+                <div class="row justify-content-center">
+                  <hr/>
+                </div>
+                <div class="row justify-content-center bottom-buffer">
+                  <div class="col-4">
                     <img class="img-fluid" src="assets/img/portfolio/network.png" alt="..." />
                   </div>
                   <div class="col-8">
                     <h5>Relapsing Polychondritis in Twitter</h5>
                     <p class="text-wrap">In this project, I conducted tweet analyses to study conversations around
-                      relapsing polychondritis on social media. Relapsing polychondritis (RP) is a rare condition without much
+                      relapsing polychondritis on social media. Relapsing polychondritis (RP) is a rare condition where there is not much
                       discussion and awareness about its management, treatment and diagnosis.
                       I used topic modeling method LDA and conducted network analyses to explore latent topics
                       surrounding relapsing polychondritis in the tweets.
@@ -103,10 +129,10 @@
                   </div>
                   <div class="col-8">
                     <h5>Predicting Text Difficulty</h5>
-                    <p class="text-wrap">I worked on creating a model that would predict text difficulty
+                    <p class="text-wrap">I attempted to create a model that would predict text difficulty
                       in a statement or sentence with high accuracy. For each statement or
                       sentence, the model would predict whether it needs to be simplified or not simplified.
-                      This could potentially help build a tool that could aid editors, who simplify text and increase its readability of Wikipedia pages
+                      This could potentially help build a tool that could aid editors, who simplify text and increase its readability of wikipedia pages
                       for those who have learning/reading difficulties or have English as a second language.
                     </p>
                       <p>Tools: Python (numpy, pandas, spacy, nltk, regular expressions, scikit-learn)</p>
@@ -131,13 +157,11 @@
                   </div>
                   <div class="col-8">
                     <h5>Natural Language Inference</h5>
-                    <p class="text-wrap">This project shows implementation of the Long Short Term Memory (LSTM) model and Sum Embedding models
-                        for the Natural Language Inference (NLI) task using the Stanford NLI (SNLI) corpus. 
-                        Natural Language Inference is important because it can provide a deeper understanding of natural language 
-                        and potentially help in developing semantic representation models for other machine learning or NLP tasks 
-                        such as information retrieval and parsing. It was inspired by <i>A large annotated corpus for learning natural language inference</i> 
-                        by Bowman et al. and <i>Supervised Learning of Universal Sentence Representations from Natural Language Inference</i>
-                        by Conneau et al.</p>
+                    <p class="text-wrap">This project shows implementation of the LSTM model and Sum Embedding models
+                      for the NLI task using the SNLI corpus.
+                      It was inspired by A large annotated corpus for learning natural language inference by Bowman et al. (2015)
+                      and Supervised Learning of Universal Sentence Representations from Natural Language Inference
+                      by Conneau et al. (2018).</p>
                       <p>Tools: Python (numpy, pandas, scikit-learn, Tensorflow)</p>
                       <p>When: March-April 2021</p>
                     <a class="btn btn-primary" href="https://jessjkim-1.medium.com/natural-language-inference-exploring-sentence-models-and-relation-extraction-methods-6fe27b3e0d43?source=friends_link&sk=308cf2bcbb984e173183ade0a74af987" target="_blank">
@@ -160,7 +184,7 @@
                   </div>
                   <div class="col-8">
                     <h5>Medical Transcription Classification</h5>
-                    <p>The goal of this project is to develop or find a high-performing NLP model that can correctly classify the medical specialties based on the transcription text with significant accuracy. This project was inspired by the existing Kaggle dataset <i>Medical Transcriptions</i> and <i>mtsamples.com</i> that has a collection of transcribed medical reports. This project might be useful in understanding the nature of the language used in medical transcriptions of various kinds, and this tool might be useful for other kinds of NLP data analysis involving medical transcriptions.</p>
+                    <p>The goal of this project is to develop or find high-performing NLP model that can correctly classify the medical specialties based on the transcription text with significant accuracy. This project was inspired by the existing Kaggle dataset Medical Transcriptions and mtsamples.com that has a collection of transcribed medical reports (Boyle, 2019). This project might be useful in understanding the nature of the language used in medical transcriptions of various kinds, and this tool might be useful for other kinds of NLP data analysis involving medical transcriptions.</p>
                     <p>Tools: Python (numpy, pandas, scikit-learn, xgboost, Keras)</p>
                     <p>When: March-April 2021</p>
                     <a class="btn btn-primary" href="https://jessjkim-1.medium.com/medical-transcription-classification-4e161e687cda?source=friends_link&sk=38b70dbe9ca92ca6fd442ac6822dbbe5" target="_blank">
@@ -190,10 +214,7 @@
                     <p>In this project, I took a look into the number of participating agencies that actively did something against human trafficking
                       and the poverty rate in each state. Using the data, I created the choropleth map of United States, displaying the data of poverty rate and the state participation for each state.
                       I gathered data using Web API and HTML parsing, and manipulated data using Python to produce cumulative data list.
-                      I visualized data by showing the poverty rate and the number of agencies of each state on US choropleth map using plotly. 
-                        The results suggest that there is no correlation between poverty rate and the number of agencies in each state. 
-                        Further research can be conducted in determining whether there is a relationship between human trafficking and poverty rate.
-                      </p>
+                      I visualized data by showing the poverty rate and the participation by state on US choropleth map using plotly.</p>
                     <p>Tools: Python (urllib, BeautifulSoup)</p>
                     <p>When: April 2017</p>
                     <a class="btn btn-primary" href="https://jessjkim-1.medium.com/human-trafficking-and-poverty-rate-a-look-into-each-state-22adbe2abf5a?source=friends_link&sk=f0c58ff4f5460d0bb0262b27145c1c03" target="_blank">
@@ -230,7 +251,7 @@
                       on various COVID-19 topics in Twitter. My work was focused on conducting exploratory data analysis on
                       tweets of black influencers and consolidating a list of keywords and hashtags that can be used to further extract tweets.</p>
                     <p>Tools: Python (pandas, nltk, json), mySQL</p>
-                    <p>When: September 2021 - Current | Role: Data Analysis</p>
+                    <p>When: September 2021 - April 2022 | Role: Data Analysis</p>
                     <a class="btn btn-primary" href="https://jessjkim-1.medium.com/black-twitter-project-9c64d4d34678?source=friends_link&sk=2d5cb47dabb52298b1c14f129b12c738" target="_blank">
                       <i class="fab fa-medium"></i>
                       Medium
